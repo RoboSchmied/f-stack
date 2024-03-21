@@ -64,7 +64,7 @@
  * otherwise). */
 
 /* Reverse memory bytes if arch is little endian. Given the conceptual
- * simplicity of the Lua build system we prefer check for endianess at runtime.
+ * simplicity of the Lua build system we prefer check for endianness at runtime.
  * The performance difference should be acceptable. */
 void memrevifle(void *ptr, size_t len) {
     unsigned char   *p = (unsigned char *)ptr,

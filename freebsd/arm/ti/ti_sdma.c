@@ -834,7 +834,7 @@ ti_sdma_stop_xfer(unsigned int ch)
 }
 
 /**
- *	ti_sdma_set_xfer_endianess - sets the endianness of subsequent transfers
+ *	ti_sdma_set_xfer_endianness - sets the endianness of subsequent transfers
  *	@ch: the channel number to set the endianness of
  *	@src: the source endianness (either DMA_ENDIAN_LITTLE or DMA_ENDIAN_BIG)
  *	@dst: the destination endianness (either DMA_ENDIAN_LITTLE or DMA_ENDIAN_BIG)
@@ -847,7 +847,7 @@ ti_sdma_stop_xfer(unsigned int ch)
  *	EH_HANDLED or EH_NOT_HANDLED
  */
 int
-ti_sdma_set_xfer_endianess(unsigned int ch, unsigned int src, unsigned int dst)
+ti_sdma_set_xfer_endianness(unsigned int ch, unsigned int src, unsigned int dst)
 {
 	struct ti_sdma_softc *sc = ti_sdma_sc;
 

@@ -445,7 +445,7 @@ static int cf_cmd_identify(struct cf_priv *cf_priv)
 			uint16_t temp;
 			temp = cf_inw_16(TF_DATA);
 				
-			/* endianess will be swapped below */
+			/* endianness will be swapped below */
 			cf_priv->drive_param.u.buf[count]   = (temp & 0xff);
 			cf_priv->drive_param.u.buf[count + 1] = (temp & 0xff00) >> 8;
 		}
