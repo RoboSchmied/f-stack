@@ -102,7 +102,7 @@ int ti_sdma_stop_xfer(unsigned int ch);
 int ti_sdma_enable_channel_irq(unsigned int ch, uint32_t flags);
 int ti_sdma_disable_channel_irq(unsigned int ch);
 int ti_sdma_get_channel_status(unsigned int ch, uint32_t *status);
-int ti_sdma_set_xfer_endianess(unsigned int ch, unsigned int src, unsigned int dst);
+int ti_sdma_set_xfer_endianness(unsigned int ch, unsigned int src, unsigned int dst);
 int ti_sdma_set_xfer_burst(unsigned int ch, unsigned int src, unsigned int dst);
 int ti_sdma_set_xfer_data_type(unsigned int ch, unsigned int type);
 int ti_sdma_set_callback(unsigned int ch,
